@@ -1,0 +1,32 @@
+Mass YouTube Video Downloader
+Overview
+This script is a simple command-line tool for downloading YouTube videos individually or in bulk. It utilizes the pytube library to fetch and download videos from YouTube.
+
+Features
+Download individual YouTube videos by providing the video URL.
+Download multiple videos in bulk by providing a text file containing YouTube video URLs.
+Support for downloading videos in either mp4 or mp3 format.
+Automatic creation of a result folder for saving downloaded videos.
+Error handling for various scenarios.
+Prerequisites
+Make sure you have the required modules installed:
+
+bash
+Copy code
+pip install pytube colorama
+Usage
+Run the script by executing the youtube_downloader.py file:
+bash
+Copy code
+python youtube_downloader.py
+Choose between downloading a single video or bulk videos as per the on-screen menu.
+
+Follow the prompts to input the necessary information such as video URL, result folder, and file extension.
+
+Wait for the download process to complete. The downloaded videos will be saved in the specified result folder.
+
+Important Notes
+Ensure that you comply with YouTube's terms of service when using this script.
+The script may need adjustments if there are changes in the pytube library or YouTube's API.
+Disclaimer
+This script is for educational purposes only. Use it responsibly and respect copyright laws.
