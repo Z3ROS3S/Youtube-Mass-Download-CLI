@@ -11,14 +11,10 @@ Error handling for various scenarios.
 Prerequisites
 Make sure you have the required modules installed:
 
-bash
-Copy code
-pip install pytube colorama
-Usage
-Run the script by executing the youtube_downloader.py file:
-bash
-Copy code
-python youtube_downloader.py
+pip install pytube 
+pip install colorama
+Run the script by executing the main.py file:
+python main.py
 Choose between downloading a single video or bulk videos as per the on-screen menu.
 
 Follow the prompts to input the necessary information such as video URL, result folder, and file extension.
